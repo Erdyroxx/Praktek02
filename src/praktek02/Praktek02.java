@@ -1,8 +1,13 @@
 package praktek02;
 
-public class Praktek02 {
-
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
+public class Rectangle {
+    double panjang;
+    double lebar;
+    
+    void cetakInfo () {
+        System.out.println("==========================");
+        System.out.println("Panjang : "+panjang);
+        System.out.println("Lebar : "+lebar);
+        System.out.println("==========================");
     }
 }
